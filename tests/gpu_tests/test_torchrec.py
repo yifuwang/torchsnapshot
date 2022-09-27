@@ -19,10 +19,11 @@ import torch.distributed.launcher as pet
 
 import torchsnapshot
 
-try:
-    import torchrec
-except Exception:
-    raise unittest.SkipTest("torchrec not found")
+# try:
+#     import torchrec
+# except Exception:
+#     raise unittest.SkipTest("torchrec not found")
+import torchrec
 
 from fbgemm_gpu.split_embedding_configs import EmbOptimType
 from torchrec.distributed import ModuleSharder
