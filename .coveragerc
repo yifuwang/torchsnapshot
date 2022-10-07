@@ -1,11 +1,15 @@
 [run]
 omit =
-    *tests/*
-    *examples/*
-    *benchmarks/*
+    setup.py
+    tests/*
+    examples/*
+    benchmarks/*
+    storage_plugins/*
 
 [report]
 omit =
-    *tests/*
-    *examples/*
-    *benchmarks/*
+    setup.py
+    tests/*
+    examples/*
+    benchmarks/*
+    storage_plugins/*
