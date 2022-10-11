@@ -13,6 +13,7 @@ TorchSnapshot API
    :maxdepth: 2
    :caption: Contents:
 
+   getting_started.rst
    snapshot.rst
    utilities.rst
 
